@@ -3,7 +3,7 @@ import { Heart, Home, Search, User } from "lucide-react-native";
 
 export default function TabLayout() {
     return (
-        <Tabs screenOptions={{ tabBarActiveTintColor: "#000000", tabBarShowLabel: true }}>
+        <Tabs screenOptions={{ tabBarShowLabel: true }}>
             <Tabs.Screen
                 name="index"
                 options={{
