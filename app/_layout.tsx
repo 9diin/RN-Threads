@@ -1,5 +1,5 @@
 import { DarkTheme, ThemeProvider } from "@react-navigation/native";
-import { Stack } from "expo-router";
+import { Slot } from "expo-router";
 import "./global.css";
 
 const appTheme = {
@@ -14,9 +14,7 @@ const appTheme = {
 export default function RootLayout() {
     return (
         <ThemeProvider value={appTheme}>
-            <Stack>
-                <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-            </Stack>
+            <Slot />
         </ThemeProvider>
     );
 }
