@@ -10,7 +10,7 @@ export default function Post() {
             </View>
             {/* 포스트 콘텐츠 */}
             <View className="flex-1 flex-col gap-2">
-                <View className="flex-row items-center gap-2">
+                <View className="flex-row items-center gap-1">
                     <Text className="text-white font-semibold">구디사는 개발자 9Diin</Text>
                     <Text className="text-neutral-400">&middot;</Text>
                     <Text className="text-neutral-400">14시간</Text>
