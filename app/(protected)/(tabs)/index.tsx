@@ -27,9 +27,17 @@ export default function HomeScreen() {
             data={dummyPosts}
             renderItem={() => <Post />}
             ListHeaderComponent={() => (
-                <Link href={"/new"} className="text-blue-500 text-center text-3xl p-4">
-                    New Post
-                </Link>
+                <>
+                    <Link href={"/new"} className="text-blue-500 text-center text-3xl p-4">
+                        New Post
+                    </Link>
+                    <Link href={"/sign-in"} className="text-blue-500 text-center text-3xl p-4">
+                        로그인
+                    </Link>
+                    <Link href={"/sign-up"} className="text-blue-500 text-center text-3xl p-4">
+                        회원가입
+                    </Link>
+                </>
             )}
         />
     );
